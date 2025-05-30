@@ -1,0 +1,14 @@
+// filepath: /root/holbertonschool-web_react/task_0/tsconfig.json
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
