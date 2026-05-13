@@ -1,0 +1,74 @@
+:root {
+  --holberton-red: #e1003c;
+  --text: #111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: #fff;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 16px 12px 14px;
+  border-bottom: 1px solid var(--holberton-red);
+}
+
+.App-header img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.App-header h1 {
+  margin: 0;
+  color: var(--holberton-red);
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.App-body {
+  flex: 1;
+  padding: 18px 10px;
+}
+
+.App-body p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.App-footer {
+  border-top: 1px solid var(--holberton-red);
+  padding: 8px 0 7px;
+  text-align: center;
+}
+
+.App-footer p {
+  margin: 0;
+  font-size: 0.72rem;
+  font-style: italic;
+}
