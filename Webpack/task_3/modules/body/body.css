@@ -1,0 +1,11 @@
+#start-btn {
+  vertical-align: middle;
+  margin: 1em auto;
+  display: block;
+}
+
+#count {
+  font-weight: bold;
+  margin-left: 10px;
+  vertical-align: middle;
+}
